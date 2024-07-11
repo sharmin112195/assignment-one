@@ -1,13 +1,22 @@
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .container{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    margin-right: 50px;
+    padding:20px ;
+    /* margin-right: 50px; */
+}
+.text{
+    margin-left: 10px;
 }
 .button{
     padding: 8px;
+     margin-right: 120px; 
 }
+
 
 .banner{
 /* border: 2px solid red;  */
@@ -36,10 +45,41 @@ background-image: url('../assets/Hero-bg.png');
     border-radius: 8px;
 }
 /* why web development?? */
-.banner-section-container{
+.banner-text-container{
 /* margin-top: 20px; */
-/* width: 1140px; */
-/* height: 1393; */
-/* border-radius: 16px; */
-mmargin:2px solid red
+ width: 900px; 
+ /* height: 1393px;  */
+ border-radius: 16px; 
+/* border: 2px solid red; */
+margin: 0 auto;
+}
+.text2 {
+     text-align:center; 
+    /* display: grid; */
+    /* place-items:center; */
+    /* margin-left: 100px; */
+     padding-top: 40px;
+     margin: 0 auto; 
+}
+.banner-text-description{
+    text-align: center;
+}
+.banner-container{
+  height: 1300px; 
+   border: 2px solid red; 
+   
+   display: flex;
+
+
+}
+.banner-container-one{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.banner-container-text{
+
 }
