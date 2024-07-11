@@ -10,7 +10,7 @@
 }
 
 .banner{
-border: 2px solid red; 
+/* border: 2px solid red;  */
 display: grid;
 place-items: center;
 padding-top: 15px;
@@ -34,4 +34,12 @@ background-image: url('../assets/Hero-bg.png');
     color:#FFFFFF ;
     padding: 12px;
     border-radius: 8px;
+}
+/* why web development?? */
+.banner-section-container{
+/* margin-top: 20px; */
+/* width: 1140px; */
+/* height: 1393; */
+/* border-radius: 16px; */
+mmargin:2px solid red
 }
