@@ -160,3 +160,51 @@ margin: 0 auto;
     border-radius: 10px;
 
 }
+.skill-containes{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+    margin-left:20%;
+    margin-right: 20%;  
+}
+.current-target-text{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skill-html{ 
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px black ;
+    border-radius:5px ;
+}
+.skill-css{ 
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px black ;
+    border-radius:5px ;
+}
+.skill-js{ 
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px black ;
+    border-radius:5px ;
+}
+.skill-containes-two{
+    /* display: flex; */
+    gap:30px;
+
+}
+.next-target-text{
+    text-align: center;
+    margin-top: 80px
+}
+
+.skill-containes-two{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #373A50;
+    border-radius: 10px;
+    padding: 20px;
+   
+
+}
