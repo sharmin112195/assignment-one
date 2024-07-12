@@ -174,8 +174,10 @@ margin: 0 auto;
 
 .skill-html{ 
     padding: 30px;
-    box-shadow: 0px 6px 50px 0px black ;
+    /* box-shadow: 0px 6px 50px 0px black ; */
     border-radius:5px ;
+    background-color: ;
+    border: ;
 }
 .skill-css{ 
     padding: 30px;
@@ -207,4 +209,34 @@ margin: 0 auto;
     padding: 20px;
    
 
+}
+.skill{
+    display: flex;
+    gap: 20px;
+    border: 1px solid #373A50;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+}
+.skill-1{
+    display: flex;
+    gap: 20px;
+    border: 1px solid #373A50;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    margin-top: 16px;
+}
+.skill-2{
+    display: flex;
+    gap: 20px;
+    border: 1px solid #373A50;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    margin-top: 16px;
+}
+.next-target{
+    max-width: 1000px;
+    margin: 0 auto;
 }
